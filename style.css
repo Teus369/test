@@ -1,0 +1,88 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos da seção de contato */
+.contact {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+    background: 100vh;
+}
+
+.contact h2.heading {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact h2.heading span {
+    color: #ff6600;
+}
+
+/* Estilos do formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.imput-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.imput-field {
+    position: relative;
+    width: 48%;
+}
+
+.imput-field input,
+.textarea-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.form_label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #666;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.imput-field input:focus + .form_label,
+.textarea-field textarea:focus + .form_label {
+    top: 0;
+    font-size: 12px;
+    color: #ff6600;
+}
+
+.btn-box {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #cc5500;
+}

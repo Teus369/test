@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <section class="contact" id="contato">
+
+        <h2 class="heading">Contate <span>Me!</span></h2>
+
+        <form id="meuFormulario">
+
+            <div class="imput-box">
+
+                <div class="imput-field">
+                    <input type="text" name="nome" required autocomplete="off">
+                    <label class="form_label">Nome</label>
+                    <span class="focus"></span>
+                </div>
+
+                <div class="imput-field">
+                    <input type="email" name="email" required>
+                    <label class="form_label">Email</label>
+                    <span class="focus"></span>
+                </div>
+
+            </div>
+
+            <div class="imput-box">
+
+                <div class="imput-field">
+                    <input type="number" name="telefone" required autocomplete="off">
+                    <label class="form_label">Telefone</label>
+                    <span class="focus"></span>
+                </div>
+
+                <div class="imput-field">
+                    <input type="text" name="_subject" required autocomplete="off">
+                    <label class="form_label">Assunto do Email</label>
+                    <span class="focus"></span>
+                </div>
+
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="message" cols="30" rows="10" required autocomplete="off"></textarea>
+                <label class="form_label">Sua Mensagem</label>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Enviar</button>
+            </div>
+
+        </form>
+
+    </section>
+<script src="script.js"></script>
+</body>
+
+</html>
